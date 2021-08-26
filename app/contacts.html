@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>УАЛ</title>
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap" rel="stylesheet">
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../node_modules/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+</head>
+
+<body>
+    <!--[if IE]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <header class="u-header">
+        <div class="container">
+            <a href="/" class="u-header__logo">
+                <img src="./images/logo.svg" alt="УАЛ">
+            </a>
+            <div class="u-header__toggle"></div>
+            <ul class="u-header__nav">
+                <li><a href="#">Программы</a></li>
+                <li><a href="#">Лагеря</a></li>
+                <li><a href="#">Календарь</a></li>
+                <li><a href="#">Вакансии</a></li>
+                <li><a href="#">Агентам</a></li>
+            </ul>
+            <div class="u-header__column">
+                <a href="tel:+7 (495) 255-10-14" class="u-header__phone">+7 (495) 255-10-14</a>
+                <div class="u-header__button open-modal">Заказать звонок</div>
+            </div>
+        </div>
+        <div class="u-header__drop">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9">
+                        <ul class="u-header__subnav">
+                            <li><a href="#">Прокат</a></li>
+                            <li><a href="#">Пути и титулы</a></li>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#">Цены на путевки</a></li>
+                            <li><a href="#">Вершины</a></li>
+                            <li><a href="#">Новости</a></li>
+                            <li><a href="#">Календарь смен</a></li>
+                            <li><a href="#">Отзывы</a></li>
+                            <li><a href="#">Фотоальбом</a></li>
+                        </ul>
+                        <nav class="u-header__social">
+                            <a href="#">
+                                <img src="./images/icon_ig.svg" alt="Instagram">
+                            </a>
+                            <a href="#">
+                                <img src="./images/icon_vk.svg" alt="VK">
+                            </a>
+                            <a href="#">
+                                <img src="./images/icon_tg.svg" alt="Telegram">
+                            </a>
+                            <a href="#">
+                                <img src="./images/icon_wa.svg" alt="WhatsApp">
+                            </a>
+                            <a href="#">
+                                <img src="./images/icon_vb.svg" alt="Viber">
+                            </a>
+                        </nav>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="u-header__subtitle">Телефоны офиса</div>
+                        <div class="u-header__info">
+                            <a href="tel:+7 (495) 255-10-14">+7 (495) 255-10-14</a> <br>
+                            <a href="tel:+7 (926) 001-01-15">+7 (926) 001-01-15</a>
+                        </div>
+                        <div class="u-header__subtitle">Телефон дирекции</div>
+                        <div class="u-header__info">
+                            <a href="tel:+7 (86141) 4-55-66">+7 (86141) 4-55-66</a> <br>
+                            <a href="tel:+7 (928) 035-15-35 ">+7 (928) 035-15-35 </a>
+                        </div>
+                        <div class="u-header__subtitle">E-mail</div>
+                        <div class="u-header__info">
+                            <a href="mailto:info@ualp.ru">info@ualp.ru</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="u-main">
+
+        <div class="container">
+            <ul class="u-breadcrumps">
+                <li><a href="/">Главная</a></li>
+                <li>&nbsp;/&nbsp;</li>
+                <li>Текущая страница</li>
+            </ul>
+        </div>
+
+        <section class="u-contacts">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="u-contacts__title">Контакты</div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="u-contacts__subtitle">Телефоны офиса</div>
+                                <div class="u-contacts__info">
+                                    <a href="tel:+7 (495) 255-10-14">+7 (495) 255-10-14</a><br>
+                                    <a href="tel:+7 (926) 001-01-15 ">+7 (926) 001-01-15 </a>
+                                </div>
+                                <div class="u-contacts__subtitle">Телефоны дирекции</div>
+                                <div class="u-contacts__info">
+                                    <a href="tel:+7 (86141) 4-55-66">+7 (86141) 4-55-66</a><br>
+                                    <a href="tel:+7 (928) 035-15-35">+7 (928) 035-15-35</a>
+                                </div>
+                                <div class="u-contacts__subtitle">E-mail</div>
+                                <div class="u-contacts__info"><a href="mailto:info@ualp.ru">info@ualp.ru</a></div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="u-contacts__subtitle">Режим работы для звонков</div>
+                                <div class="u-contacts__info">Пн-Сб: 8:00-22:00 <br>
+                                    Вс: 10:00-18:00</div>
+                                <div class="u-contacts__subtitle">Адрес офиса</div>
+                                <div class="u-contacts__info">353465, Краснодарский край, <br>
+                                    г. Геленджик, ул. Одесская, <br>
+                                    дом 7А, кабинет 1</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div style="background-image: url('./images/contacts_hello_1.jpg');" class="u-contacts__image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="u-contacts-map">
+            <img src="./images/home_cloud_5.png" alt="Горы" class="u-cloud u-cloud_5 lax lax_preset_slideY:4500:200">
+            <div class="container">
+                <div id="map_big"></div>
+            </div>
+            <img src="./images/home_cloud_6.png" alt="Горы" class="u-cloud u-cloud_6 lax lax_preset_slideY:4500:400">
+        </section>
+
+        <div class="container">
+            <section class="u-tabs">
+                <ul class="u-tabs__header">
+                    <li class="current" data-tab="tab-1">
+                        <div>Доска почета</div>
+                    </li>
+                    <li data-tab="tab-2">
+                        <div>Управление</div>
+                    </li>
+                </ul>
+
+                <div id="tab-1" class="u-tabs__content current">
+                    <div class="u-board">
+                        <aside class="u-board__aside">
+                            <img src="./images/contacts_logo.svg" alt="АШМ">
+                            <div class="u-board__title">альпинизм-школа
+                                мужества</div>
+                            <div class="u-board__text">Слова благодарности руководители УАЛа (Александр Яковенко и
+                                Александр Пятницин) и ответственный за горную подготовку (Александр Расторгуев) –
+                                опытные организаторы альпинистских мероприятий различного уровня (вплоть до крупных
+                                соревнований на сотни участников). Мы знаем, как организовать альпинистский лагерь,
+                                обучение и восхождение так, чтобы свести к минимуму любую вероятность возникновения ЧП
+                                (чрезвычайное происшествие)</div>
+                        </aside>
+                        <div class="u-board__content">
+                            <img src="./images/contacts_header.svg" alt="Доска почета" class="u-board__header">
+                            <div class="u-board__cards">
+                                <div class="row">
+
+                                    <div class="col-xl-4 col-md-6">
+                                        <div style="background-image: url('./images/contacts_person_1.jpg');"
+                                            class="u-board-card">
+                                            <div class="u-board-card__content">
+                                                <div class="u-board-card__name">Пантюхин Лев
+                                                    Владимирович</div>
+                                                <div class="u-board-card__text">Чемпион России по альпинизму,
+                                                    МСМК, инструктор альпинизма,
+                                                    Чемпион России по альпинизму</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-4 col-md-6">
+                                        <div style="background-image: url('./images/contacts_person_1.jpg');"
+                                            class="u-board-card">
+                                            <div class="u-board-card__content">
+                                                <div class="u-board-card__name">Пантюхин Лев
+                                                    Владимирович</div>
+                                                <div class="u-board-card__text">Чемпион России по альпинизму,
+                                                    МСМК, инструктор альпинизма,
+                                                    Чемпион России по альпинизму</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-4 col-md-6">
+                                        <div style="background-image: url('./images/contacts_person_1.jpg');"
+                                            class="u-board-card">
+                                            <div class="u-board-card__content">
+                                                <div class="u-board-card__name">Пантюхин Лев
+                                                    Владимирович</div>
+                                                <div class="u-board-card__text">Чемпион России по альпинизму,
+                                                    МСМК, инструктор альпинизма,
+                                                    Чемпион России по альпинизму</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-4 col-md-6">
+                                        <div style="background-image: url('./images/contacts_person_1.jpg');"
+                                            class="u-board-card">
+                                            <div class="u-board-card__content">
+                                                <div class="u-board-card__name">Пантюхин Лев
+                                                    Владимирович</div>
+                                                <div class="u-board-card__text">Чемпион России по альпинизму,
+                                                    МСМК, инструктор альпинизма,
+                                                    Чемпион России по альпинизму</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-4 col-md-6">
+                                        <div style="background-image: url('./images/contacts_person_1.jpg');"
+                                            class="u-board-card">
+                                            <div class="u-board-card__content">
+                                                <div class="u-board-card__name">Пантюхин Лев
+                                                    Владимирович</div>
+                                                <div class="u-board-card__text">Чемпион России по альпинизму,
+                                                    МСМК, инструктор альпинизма,
+                                                    Чемпион России по альпинизму</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-4 col-md-6">
+                                        <div style="background-image: url('./images/contacts_person_1.jpg');"
+                                            class="u-board-card">
+                                            <div class="u-board-card__content">
+                                                <div class="u-board-card__name">Пантюхин Лев
+                                                    Владимирович</div>
+                                                <div class="u-board-card__text">Чемпион России по альпинизму,
+                                                    МСМК, инструктор альпинизма,
+                                                    Чемпион России по альпинизму</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-4 col-md-6">
+                                        <div style="background-image: url('./images/contacts_person_1.jpg');"
+                                            class="u-board-card">
+                                            <div class="u-board-card__content">
+                                                <div class="u-board-card__name">Пантюхин Лев
+                                                    Владимирович</div>
+                                                <div class="u-board-card__text">Чемпион России по альпинизму,
+                                                    МСМК, инструктор альпинизма,
+                                                    Чемпион России по альпинизму</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-4 col-md-6">
+                                        <div style="background-image: url('./images/contacts_person_1.jpg');"
+                                            class="u-board-card">
+                                            <div class="u-board-card__content">
+                                                <div class="u-board-card__name">Пантюхин Лев
+                                                    Владимирович</div>
+                                                <div class="u-board-card__text">Чемпион России по альпинизму,
+                                                    МСМК, инструктор альпинизма,
+                                                    Чемпион России по альпинизму</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-4 col-md-6">
+                                        <div style="background-image: url('./images/contacts_person_1.jpg');"
+                                            class="u-board-card">
+                                            <div class="u-board-card__content">
+                                                <div class="u-board-card__name">Пантюхин Лев
+                                                    Владимирович</div>
+                                                <div class="u-board-card__text">Чемпион России по альпинизму,
+                                                    МСМК, инструктор альпинизма,
+                                                    Чемпион России по альпинизму</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="tab-2" class="u-tabs__content">
+                    <div class="row">
+
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="u-board-person">
+                                <div style="background-image: url('./images/contacts_person_1.jpg');"
+                                    class="u-board-person__image"></div>
+                                <div class="u-board-person__name">Пантюхин Лев Владимирович</div>
+                                <div class="u-board-person__text">Чемпион России по альпинизму, <br>
+                                    МСМК, инструктор альпинизма, <br>
+                                    Чемпион России по альпинизму</div>
+                                <div class="u-board-person__subtitle">Телефон, WhatsApp, Telegram</div>
+                                <div class="u-board-person__info">
+                                    <a href="tel:+7 (495) 255-10-14">+7 (495) 255-10-14</a>
+                                </div>
+                                <div class="u-board-person__subtitle">Электронная почта</div>
+                                <div class="u-board-person__info">
+                                    <a href="mailto:rastorguev@ualp.ru">rastorguev@ualp.ru</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="u-board-person">
+                                <div style="background-image: url('./images/contacts_person_1.jpg');"
+                                    class="u-board-person__image"></div>
+                                <div class="u-board-person__name">Пантюхин Лев Владимирович</div>
+                                <div class="u-board-person__text">Чемпион России по альпинизму, <br>
+                                    МСМК, инструктор альпинизма, <br>
+                                    Чемпион России по альпинизму</div>
+                                <div class="u-board-person__subtitle">Телефон, WhatsApp, Telegram</div>
+                                <div class="u-board-person__info">
+                                    <a href="tel:+7 (495) 255-10-14">+7 (495) 255-10-14</a>
+                                </div>
+                                <div class="u-board-person__subtitle">Электронная почта</div>
+                                <div class="u-board-person__info">
+                                    <a href="mailto:rastorguev@ualp.ru">rastorguev@ualp.ru</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="u-board-person">
+                                <div style="background-image: url('./images/contacts_person_1.jpg');"
+                                    class="u-board-person__image"></div>
+                                <div class="u-board-person__name">Пантюхин Лев Владимирович</div>
+                                <div class="u-board-person__text">Чемпион России по альпинизму, <br>
+                                    МСМК, инструктор альпинизма, <br>
+                                    Чемпион России по альпинизму</div>
+                                <div class="u-board-person__subtitle">Телефон, WhatsApp, Telegram</div>
+                                <div class="u-board-person__info">
+                                    <a href="tel:+7 (495) 255-10-14">+7 (495) 255-10-14</a>
+                                </div>
+                                <div class="u-board-person__subtitle">Электронная почта</div>
+                                <div class="u-board-person__info">
+                                    <a href="mailto:rastorguev@ualp.ru">rastorguev@ualp.ru</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="u-board-person">
+                                <div style="background-image: url('./images/contacts_person_1.jpg');"
+                                    class="u-board-person__image"></div>
+                                <div class="u-board-person__name">Пантюхин Лев Владимирович</div>
+                                <div class="u-board-person__text">Чемпион России по альпинизму, <br>
+                                    МСМК, инструктор альпинизма, <br>
+                                    Чемпион России по альпинизму</div>
+                                <div class="u-board-person__subtitle">Телефон, WhatsApp, Telegram</div>
+                                <div class="u-board-person__info">
+                                    <a href="tel:+7 (495) 255-10-14">+7 (495) 255-10-14</a>
+                                </div>
+                                <div class="u-board-person__subtitle">Электронная почта</div>
+                                <div class="u-board-person__info">
+                                    <a href="mailto:rastorguev@ualp.ru">rastorguev@ualp.ru</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="u-board-person">
+                                <div style="background-image: url('./images/contacts_person_1.jpg');"
+                                    class="u-board-person__image"></div>
+                                <div class="u-board-person__name">Пантюхин Лев Владимирович</div>
+                                <div class="u-board-person__text">Чемпион России по альпинизму, <br>
+                                    МСМК, инструктор альпинизма, <br>
+                                    Чемпион России по альпинизму</div>
+                                <div class="u-board-person__subtitle">Телефон, WhatsApp, Telegram</div>
+                                <div class="u-board-person__info">
+                                    <a href="tel:+7 (495) 255-10-14">+7 (495) 255-10-14</a>
+                                </div>
+                                <div class="u-board-person__subtitle">Электронная почта</div>
+                                <div class="u-board-person__info">
+                                    <a href="mailto:rastorguev@ualp.ru">rastorguev@ualp.ru</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="u-board-person">
+                                <div style="background-image: url('./images/contacts_person_1.jpg');"
+                                    class="u-board-person__image"></div>
+                                <div class="u-board-person__name">Пантюхин Лев Владимирович</div>
+                                <div class="u-board-person__text">Чемпион России по альпинизму, <br>
+                                    МСМК, инструктор альпинизма, <br>
+                                    Чемпион России по альпинизму</div>
+                                <div class="u-board-person__subtitle">Телефон, WhatsApp, Telegram</div>
+                                <div class="u-board-person__info">
+                                    <a href="tel:+7 (495) 255-10-14">+7 (495) 255-10-14</a>
+                                </div>
+                                <div class="u-board-person__subtitle">Электронная почта</div>
+                                <div class="u-board-person__info">
+                                    <a href="mailto:rastorguev@ualp.ru">rastorguev@ualp.ru</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="u-board-person">
+                                <div style="background-image: url('./images/contacts_person_1.jpg');"
+                                    class="u-board-person__image"></div>
+                                <div class="u-board-person__name">Пантюхин Лев Владимирович</div>
+                                <div class="u-board-person__text">Чемпион России по альпинизму, <br>
+                                    МСМК, инструктор альпинизма, <br>
+                                    Чемпион России по альпинизму</div>
+                                <div class="u-board-person__subtitle">Телефон, WhatsApp, Telegram</div>
+                                <div class="u-board-person__info">
+                                    <a href="tel:+7 (495) 255-10-14">+7 (495) 255-10-14</a>
+                                </div>
+                                <div class="u-board-person__subtitle">Электронная почта</div>
+                                <div class="u-board-person__info">
+                                    <a href="mailto:rastorguev@ualp.ru">rastorguev@ualp.ru</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="u-board-person">
+                                <div style="background-image: url('./images/contacts_person_1.jpg');"
+                                    class="u-board-person__image"></div>
+                                <div class="u-board-person__name">Пантюхин Лев Владимирович</div>
+                                <div class="u-board-person__text">Чемпион России по альпинизму, <br>
+                                    МСМК, инструктор альпинизма, <br>
+                                    Чемпион России по альпинизму</div>
+                                <div class="u-board-person__subtitle">Телефон, WhatsApp, Telegram</div>
+                                <div class="u-board-person__info">
+                                    <a href="tel:+7 (495) 255-10-14">+7 (495) 255-10-14</a>
+                                </div>
+                                <div class="u-board-person__subtitle">Электронная почта</div>
+                                <div class="u-board-person__info">
+                                    <a href="mailto:rastorguev@ualp.ru">rastorguev@ualp.ru</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="u-board-person">
+                                <div style="background-image: url('./images/contacts_person_1.jpg');"
+                                    class="u-board-person__image"></div>
+                                <div class="u-board-person__name">Пантюхин Лев Владимирович</div>
+                                <div class="u-board-person__text">Чемпион России по альпинизму, <br>
+                                    МСМК, инструктор альпинизма, <br>
+                                    Чемпион России по альпинизму</div>
+                                <div class="u-board-person__subtitle">Телефон, WhatsApp, Telegram</div>
+                                <div class="u-board-person__info">
+                                    <a href="tel:+7 (495) 255-10-14">+7 (495) 255-10-14</a>
+                                </div>
+                                <div class="u-board-person__subtitle">Электронная почта</div>
+                                <div class="u-board-person__info">
+                                    <a href="mailto:rastorguev@ualp.ru">rastorguev@ualp.ru</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="u-board-person">
+                                <div style="background-image: url('./images/contacts_person_1.jpg');"
+                                    class="u-board-person__image"></div>
+                                <div class="u-board-person__name">Пантюхин Лев Владимирович</div>
+                                <div class="u-board-person__text">Чемпион России по альпинизму, <br>
+                                    МСМК, инструктор альпинизма, <br>
+                                    Чемпион России по альпинизму</div>
+                                <div class="u-board-person__subtitle">Телефон, WhatsApp, Telegram</div>
+                                <div class="u-board-person__info">
+                                    <a href="tel:+7 (495) 255-10-14">+7 (495) 255-10-14</a>
+                                </div>
+                                <div class="u-board-person__subtitle">Электронная почта</div>
+                                <div class="u-board-person__info">
+                                    <a href="mailto:rastorguev@ualp.ru">rastorguev@ualp.ru</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="u-board-person">
+                                <div style="background-image: url('./images/contacts_person_1.jpg');"
+                                    class="u-board-person__image"></div>
+                                <div class="u-board-person__name">Пантюхин Лев Владимирович</div>
+                                <div class="u-board-person__text">Чемпион России по альпинизму, <br>
+                                    МСМК, инструктор альпинизма, <br>
+                                    Чемпион России по альпинизму</div>
+                                <div class="u-board-person__subtitle">Телефон, WhatsApp, Telegram</div>
+                                <div class="u-board-person__info">
+                                    <a href="tel:+7 (495) 255-10-14">+7 (495) 255-10-14</a>
+                                </div>
+                                <div class="u-board-person__subtitle">Электронная почта</div>
+                                <div class="u-board-person__info">
+                                    <a href="mailto:rastorguev@ualp.ru">rastorguev@ualp.ru</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="u-board-person">
+                                <div style="background-image: url('./images/contacts_person_1.jpg');"
+                                    class="u-board-person__image"></div>
+                                <div class="u-board-person__name">Пантюхин Лев Владимирович</div>
+                                <div class="u-board-person__text">Чемпион России по альпинизму, <br>
+                                    МСМК, инструктор альпинизма, <br>
+                                    Чемпион России по альпинизму</div>
+                                <div class="u-board-person__subtitle">Телефон, WhatsApp, Telegram</div>
+                                <div class="u-board-person__info">
+                                    <a href="tel:+7 (495) 255-10-14">+7 (495) 255-10-14</a>
+                                </div>
+                                <div class="u-board-person__subtitle">Электронная почта</div>
+                                <div class="u-board-person__info">
+                                    <a href="mailto:rastorguev@ualp.ru">rastorguev@ualp.ru</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+    </main>
+
+    <section style="background: transparent;" class="u-page-form">
+        <img src="./images/home_cloud_5.png" alt="Горы" class="u-cloud u-cloud_5 lax lax_preset_slideY:4500:200">
+        <div class="container">
+            <div class="u-page-form__content">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="u-modal__title">Если у вас остались <br>
+                            вопросы, оставьте <br>
+                            заявку на консультацию</div>
+                        <div class="u-modal__text">Оставьте заявку и мы свяжемся с вами <br>
+                            в ближайшее время для помощи <br>
+                            в вашем вопросе</div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" placeholder="Ваше имя">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" placeholder="Ваш телефон" class="phone">
+                            </div>
+                            <div class="col-md-6">
+                                <textarea rows="6" placeholder="Напишите свой вопрос"></textarea>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="u-modal__subtitle">Удобное время для звока:</div>
+                                <label class="u-modal__check">
+                                    <input type="radio" value="example" name="form_time" checked>
+                                    <span>10:00-13:00</span>
+                                </label>
+                                <label class="u-modal__check">
+                                    <input type="radio" value="example2" name="form_time">
+                                    <span>13:00-16:00</span>
+                                </label>
+                                <label class="u-modal__check">
+                                    <input type="radio" value="example3" name="form_time">
+                                    <span>16:00-19:00</span>
+                                </label>
+                            </div>
+                            <div class="col-md-4">
+                                <button type="submit" class="u-modal__button">Отправить</button>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="u-modal__info">Нажимая на кнопку «Отправить», <br>
+                                    вы соглашаетесь на обработку <br>
+                                    персональных данных</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./images/home_cloud_6.png" alt="Горы" class="u-cloud u-cloud_6 lax lax_preset_slideY:4500:400">
+    </section>
+
+    <footer class="u-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <a href="/" class="u-footer__logo">
+                        <img src="./images/logo.svg" alt="УАЛ">
+                    </a>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <ul class="u-footer__nav">
+                        <li><a href="#">Прокат</a></li>
+                        <li><a href="#">Цены на путевки</a></li>
+                        <li><a href="#">Календарь смен</a></li>
+                        <li><a href="#">Пути и титулы</a></li>
+                        <li><a href="#">Вершины</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <ul class="u-footer__nav">
+                        <li><a href="#">Отзывы</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Фотоальбом</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="u-footer__subtitle">Телефоны офиса</div>
+                    <div class="u-footer__info">
+                        <a href="tel:+7 (495) 255-10-14">+7 (495) 255-10-14</a><br>
+                        <a href="tel:+7 (926) 001-01-15">+7 (926) 001-01-15</a>
+                    </div>
+                    <div class="u-footer__subtitle">Телефон дирекции</div>
+                    <div class="u-footer__info">
+                        <a href="tel:+7 (86141) 4-55-66">+7 (86141) 4-55-66</a><br>
+                        <a href="tel:+7 (928) 035-15-35 ">+7 (928) 035-15-35 </a>
+                    </div>
+                    <div class="u-footer__subtitle">E-mail</div>
+                    <div class="u-footer__info">
+                        <a href="mailto:info@ualp.ru">info@ualp.ru</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="u-bottom">
+        <div class="container">
+            <div class="u-bottom__info"><a href="#">Политика конфиденциальности</a></div>
+            <div class="u-bottom__info">Создание и продвижение сайтов <a href="#">аАкцент</a></div>
+            <nav class="u-bottom__social">
+                <a href="#">
+                    <img src="./images/icon_ig.svg" alt="Instagram">
+                </a>
+                <a href="#">
+                    <img src="./images/icon_vk.svg" alt="VK">
+                </a>
+                <a href="#">
+                    <img src="./images/icon_tg.svg" alt="Telegram">
+                </a>
+                <a href="#">
+                    <img src="./images/icon_wa.svg" alt="WhatsApp">
+                </a>
+                <a href="#">
+                    <img src="./images/icon_vb.svg" alt="Viber">
+                </a>
+            </nav>
+        </div>
+    </footer>
+
+    <div class="u-modal">
+        <form action="submit" class="u-modal__centered">
+            <div class="u-modal__close"><img src="./images/icon_modal_close.svg" alt="Закрыть"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="u-modal__title">Если у вас остались <br>
+                            вопросы, оставьте <br>
+                            заявку на консультацию</div>
+                        <div class="u-modal__text">Оставьте заявку и мы свяжемся с вами <br>
+                            в ближайшее время для помощи <br>
+                            в вашем вопросе</div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <input type="text" placeholder="Ваше имя">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" placeholder="Ваш телефон" class="phone">
+                            </div>
+                            <div class="col-md-6">
+                                <textarea rows="6" placeholder="Напишите свой вопрос"></textarea>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="u-modal__subtitle">Удобное время для звока:</div>
+                                <label class="u-modal__check">
+                                    <input type="radio" value="example" name="modal_time" checked>
+                                    <span>10:00-13:00</span>
+                                </label>
+                                <label class="u-modal__check">
+                                    <input type="radio" value="example2" name="modal_time">
+                                    <span>13:00-16:00</span>
+                                </label>
+                                <label class="u-modal__check">
+                                    <input type="radio" value="example3" name="modal_time">
+                                    <span>16:00-19:00</span>
+                                </label>
+                            </div>
+                            <div class="col-md-4">
+                                <button type="submit" class="u-modal__button">Отправить</button>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="u-modal__info">Нажимая на кнопку «Отправить», <br>
+                                    вы соглашаетесь на обработку <br>
+                                    персональных данных</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- build:js scripts/vendor.js -->
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/inputmask/dist/jquery.inputmask.min.js"></script>
+    <script src="../node_modules/swiper/swiper-bundle.min.js"></script>
+    <script src="../node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+    <script src="../node_modules/lax.js/lib/lax.min.js"></script>
+    <!-- endbuild -->
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+    <script>
+        window.onload = function () {
+            lax.init();
+
+            // Add a driver that we use to control our animations
+            lax.addDriver("scrollY", function () {
+                return window.scrollY;
+            });
+        };
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCaGuxbttrMPqk7jfUqoSB3bGOlT6oSO_8&callback=initMap"></script>
+    <script>
+        function initMap() {
+
+            var image = './images/icon_map.svg';
+            var uluru = {
+                lat: 44.5904669,
+                lng: 38.0592149
+            };
+            var map = new google.maps.Map(document.getElementById('map_big'), {
+                disableDefaultUI: true,
+                zoom: 12,
+                center: uluru,
+                featureType: "all",
+                elementType: "all",
+            });
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map,
+                icon: image
+            });
+            map.setOptions({
+                styles: [
+                    {
+                        "featureType": "all",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#202c3e"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "all",
+                        "elementType": "labels.text.fill",
+                        "stylers": [
+                            {
+                                "gamma": 0.01
+                            },
+                            {
+                                "lightness": 20
+                            },
+                            {
+                                "weight": "1.39"
+                            },
+                            {
+                                "color": "#ffffff"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "all",
+                        "elementType": "labels.text.stroke",
+                        "stylers": [
+                            {
+                                "weight": "0.96"
+                            },
+                            {
+                                "saturation": "9"
+                            },
+                            {
+                                "visibility": "on"
+                            },
+                            {
+                                "color": "#000000"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "all",
+                        "elementType": "labels.icon",
+                        "stylers": [
+                            {
+                                "visibility": "off"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "landscape",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "lightness": 30
+                            },
+                            {
+                                "saturation": "9"
+                            },
+                            {
+                                "color": "#29446b"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "poi",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "saturation": 20
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "poi.park",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "lightness": 20
+                            },
+                            {
+                                "saturation": -20
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "lightness": 10
+                            },
+                            {
+                                "saturation": -30
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road",
+                        "elementType": "geometry.fill",
+                        "stylers": [
+                            {
+                                "color": "#193a55"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road",
+                        "elementType": "geometry.stroke",
+                        "stylers": [
+                            {
+                                "saturation": 25
+                            },
+                            {
+                                "lightness": 25
+                            },
+                            {
+                                "weight": "0.01"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "water",
+                        "elementType": "all",
+                        "stylers": [
+                            {
+                                "lightness": -20
+                            }
+                        ]
+                    }
+                ]
+            })
+        }
+    </script>
+</body>
+
+</html>
